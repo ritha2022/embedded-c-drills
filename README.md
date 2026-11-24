@@ -1,4 +1,4 @@
-**# Embedded C drills and automotive case studies
+# Embedded C drills and automotive case studies
 
 ![tests](https://github.com/ritha2022/embedded-c-drills/actions/workflows/ci.yml/badge.svg)
 
@@ -47,4 +47,4 @@ Only drills marked `1` in `include/drills.h` are tested, so the repository stays
 
 ### 01. Bits
 
-Each function builds a mask with only bit *n* set, `1u << n`, then combines it with the register: OR to set, AND with the inverted mask to clear, XOR to toggle. To check a bit, shift it down to position 0 and keep only that bit with `& 1u`. I use `1u` (unsigned) because shifting a signed `1` into bit 31 is undefined behaviour in C.**
+Each function builds a mask with only bit *n* set, `1u << n`, then combines it with the register: OR to set, AND with the inverted mask to clear, XOR to toggle. To check a bit, shift it down to position 0 and keep only that bit with `& 1u`. I use `1u` (unsigned) because shifting a signed `1` into bit 31 is undefined behaviour in C.

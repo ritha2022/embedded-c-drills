@@ -15,16 +15,15 @@
 
 /* ---- Mark each drill 1 when you have solved it ---- */
 #define DONE_01_BITS        1
-//#define DONE_02_POW2        0
 #define DONE_02_POW2        1
-#define DONE_03_COUNT_BITS  0
-#define DONE_04_ENDIAN      0
-#define DONE_05_CAN_SIGNAL  0
-#define DONE_06_ALIVE       0
-#define DONE_07_TIMEOUT     0
-#define DONE_08_DEBOUNCE    0
-#define DONE_09_RINGBUF     0
-#define DONE_10_CRC8        0
+#define DONE_03_COUNT_BITS  1
+#define DONE_04_ENDIAN      1
+#define DONE_05_CAN_SIGNAL  1
+#define DONE_06_ALIVE       1
+#define DONE_07_TIMEOUT     1
+#define DONE_08_DEBOUNCE    1
+#define DONE_09_RINGBUF     1
+#define DONE_10_CRC8        1
 
 /* 01. Bit manipulation: return the new register value / the bit value (0 or 1). */
 uint32_t bit_set(uint32_t reg, uint8_t n);

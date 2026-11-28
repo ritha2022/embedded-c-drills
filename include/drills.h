@@ -15,7 +15,8 @@
 
 /* ---- Mark each drill 1 when you have solved it ---- */
 #define DONE_01_BITS        1
-#define DONE_02_POW2        0
+//#define DONE_02_POW2        0
+#define DONE_02_POW2        1
 #define DONE_03_COUNT_BITS  0
 #define DONE_04_ENDIAN      0
 #define DONE_05_CAN_SIGNAL  0

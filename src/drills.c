@@ -31,7 +31,12 @@ uint8_t bit_check(uint32_t reg, uint8_t n)
 }
 
 /* 02 */
-bool is_pow2(uint32_t v) { (void)v; return false; }
+//bool is_pow2(uint32_t v) { (void)v; return false; }
+
+bool is_pow2(uint32_t v)
+{
+    return (v != 0u) && ((v & (v - 1u)) == 0u);
+}
 
 /* 03 */
 uint8_t count_bits(uint32_t v) { (void)v; return 0u; }

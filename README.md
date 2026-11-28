@@ -7,7 +7,7 @@ Ten small embedded C problems that come up in real automotive firmware and in in
 | # | Drill | Where it's used | Status |
 |---|---|---|---|
 | 01 | Set, clear, toggle and check a bit | Register access | ✅ |
-| 02 | Power of two without loops | Buffer sizes, alignment | ⬜ |
+| 02 | Power of two without loops | Buffer sizes, alignment |  ✅  |
 | 03 | Count set bits | Error masks, flags | ⬜ |
 | 04 | Big-endian and little-endian reads | Motorola and Intel CAN signals | ⬜ |
 | 05 | Decode a CAN signal with scale and offset | DBC signal decoding | ⬜ |
